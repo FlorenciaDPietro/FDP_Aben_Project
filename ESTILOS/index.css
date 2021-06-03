@@ -1,0 +1,58 @@
+p {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*MINI BANNER*/
+.banner {
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    background-color: black;
+    color: whitesmoke;
+    padding-top: 10px;
+    justify-content: center;
+    letter-spacing: 1px; 
+}
+
+/*NAV*/
+.menu {
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(187, 187, 187);
+}
+
+a {
+    color: rgb(65, 63, 65);
+    text-decoration: none;
+}
+
+/*CAROUSEL*/
+.carousel-item p {
+    font-size: 25px;
+}
+
+.carousel-item p,h2 {
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgba(5, 5, 5, 0.719);
+}
+
+.carousel-item a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+/*JUMBOTRON*/
+.jumbotron {
+    background-color: rgba(51, 88, 75, 0.281);
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*FOOTER*/
+.footer {
+    background-color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    line-height: 2rem;
+    padding: 10px;
+}

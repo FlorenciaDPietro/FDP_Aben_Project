@@ -1,0 +1,25 @@
+p {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*NAV*/
+.menu {
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(187, 187, 187);
+}
+
+a {
+    color: rgb(65, 63, 65);
+    text-decoration: none;
+}
+
+/*FOOTER*/
+.footer {
+    background-color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    line-height: 2rem;
+    padding: 10px;
+}

@@ -1,0 +1,41 @@
+p {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*NAV*/
+.menu {
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(187, 187, 187);
+}
+
+a {
+    color: rgb(65, 63, 65);
+    text-decoration: none;
+}
+
+p {
+    width: 600px;
+    height: 45vh;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 200px;
+    margin-right: 25px;
+    position: relative;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: lighter;
+    color: rgb(51, 88, 75);
+    font-size: 20px;
+    overflow: auto;
+}
+
+/*FOOTER*/
+.footer {
+    background-color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    line-height: 2rem;
+    padding: 10px;
+}

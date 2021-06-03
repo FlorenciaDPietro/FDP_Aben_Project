@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="./ESTILOS/shop.css"/>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet"> 
+        <title>ABEN BOX - Tienda de Vinos Online</title>
+    </head>
+
+<body>
+   <!--INICIO HEADER-->
+   <div class="container-fluid menu">
+        <ul class='row nav nav-fill align-items-center mt-4'>
+            <li class='nav-item'><img src="./IMAGENES/LOGO 2.png" width="100" height="100" alt="Logo comercial"></li>
+            <li class='nav-item'>
+                <a class='nav-link-active' href="index.html">Inicio</a>
+            </li>
+            <li class='nav-item'>
+                <a class='nav-link-active' href="nosotros.html">Nosotros</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Shop</a>
+                <div class="dropdown-menu">
+                <a class="dropdown-item" href="shop.html">Vinos</a>
+                <a class="dropdown-item" href="shop.html">Wine Box</a>
+                <a class="dropdown-item" href="shop.html">Gift Box</a>
+                </div>
+            </li>
+            <li class='nav-item'>
+                <a class='nav-link-active' href="bodegas.html">Bodegas</a>
+            </li>
+            <li class='nav-item'>
+                <a class='nav-link-active' href="artistas.html">Artistas</a>
+            </li>
+            <li class='nav-item'>
+                <a class='nav-link-active' href="contacto.html">Contacto</a>
+            </li>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn btn-light my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </ul>
+    </div>
+
+    <!--TABLA-->
+    <div class='container col-md-8 mt-5 mb-5'>
+        <table class='table'>
+            <thead class='thead-dark'>
+                <tr>
+                  <th scope="col">Foto</th>
+                  <th scope="col">Vino</th>
+                  <th scope="col">Bodega</th>
+                  <th scope="col">Precio</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                  <th scope="row"><img class='image_item1' src="./IMAGENES/virgen malbec.jpg" alt="Vino Virgen Malbec" width="200" height="250"></th>
+                  <td>Virgen Malbec 2019</td>
+                  <td>Domaine Bousquet</td>
+                  <td>$780,00</td>
+                </tr>
+                <tr>
+                  <th scope="row"><img class='image_item2' src="./IMAGENES/rocamadre malbec.jpg" alt="Vino Rocamadre Malbec" width="200" height="250"></th>
+                  <td>Rocamadre Malbec 2019</td>
+                  <td>Rocamadre</td>
+                  <td>$1.200,00</td>
+                </tr>
+                <tr>
+                  <th scope="row"><img class='image_item3' src="./IMAGENES/animal malbec.jpg" alt="Vino Animal Malbec" width="200" height="250"></th>
+                  <td>Animal Malbec 2019</td>
+                  <td>Ernesto Catena</td>
+                  <td>$750,00</td>
+                </tr>
+                <tr>
+                    <th scope="row"><img class='image_item4' src="./IMAGENES/la linda malbec.jpg" alt="La Linda Malbec" width="200" height="250"> </th>
+                    <td>La Linda Malbec 2019</td>
+                    <td>Luigi Bosca</td>
+                    <td>$400,00</td>
+                  </tr>
+              </tbody>
+        </table>
+    </div>
+
+    <!--INICIO FOOTER-->
+    <div class='container-fluid mt-5 mb-3 footer'>
+        <div class='row'>
+            <div class="col-sm">
+                <ul class='nav flex-column'> 
+                    <h3>Navegación</h3>
+                    <li class='nav-item'>
+                        <a class='nav-link-active' href="shop.html">Vinos</a>
+                    </li>
+                    <li class='nav-item'>
+                        <a class='nav-link-active' href="shop.html">Wine Box</a>
+                    </li>
+                    <li class='nav-item'>
+                        <a class='nav-link-active' href="shop.html">Gift Box</a>
+                    </li>
+                    <li class='nav-item'>
+                        <a class='nav-link-active' href="shop.html">Arma tu combo</a>
+                    </li>
+                    <li class='nav-item'>
+                        <a class='nav-link-active' href="nosotros.html">Nosotros</a>
+                    </li>
+                    <li class='nav-item'>
+                        <a class='nav-link-active' href="bodegas.html">Bodegas</a>
+                    </li>
+                    <li class='nav-item'>
+                        <a class='nav-link-active' href="artistas.html">Artistas</a>
+                    </li>
+                </ul>
+            </div>
+            <div class='col-sm'>
+                <h3>Contacto</h3>
+                <ul>
+                    <li>@ info.abenbox@gmail.com</li>
+                    <li>Whatsapp: 11 6987 9063</li>
+                </ul>
+            </div>
+            <div class='col-sm'>
+                <h3>Redes Sociales</h3>
+                <a href="https://www.instagram.com/aben_box/?hl=es-la"><img src="./IMAGENES/pngwing.com (1).png" width="50px" height="50px" alt="Instagram Logo"></a>
+                <a href="https://www.facebook.com/abenbox1"><img src="./IMAGENES/pngwing.com.png" width="50px" height="50px" alt="Facebook Logo"></a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
