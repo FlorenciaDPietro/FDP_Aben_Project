@@ -7,11 +7,10 @@ p {
     font-family: 'Montserrat', sans-serif; 
     font-size: 18px;
     font-weight: bold;
-    color: rgb(187, 187, 187);
 }
 
-a {
-    color: rgb(65, 63, 65);
+a{
+    color: rgb(32, 32, 32);
     text-decoration: none;
 }
 
@@ -22,4 +21,9 @@ a {
     font-size: 18px;
     line-height: 2rem;
     padding: 10px;
+    color: whitesmoke;
+}
+
+.footer a {
+    color: whitesmoke
 }

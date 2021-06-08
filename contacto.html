@@ -15,38 +15,45 @@
 
 <body>
     <!--INICIO HEADER-->
-    <div class="container-fluid menu">
-        <ul class='row nav nav-fill align-items-center mt-4'>
-            <li class='nav-item'><img src="./IMAGENES/LOGO 2.png" width="100" height="100" alt="Logo comercial"></li>
-            <li class='nav-item'>
-                <a class='nav-link-active' href="index.html">Inicio</a>
-            </li>
-            <li class='nav-item'>
-                <a class='nav-link-active' href="nosotros.html">Nosotros</a>
-            </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Shop</a>
-                <div class="dropdown-menu">
-                  <a class="dropdown-item" href="shop.html">Vinos</a>
-                  <a class="dropdown-item" href="shop.html">Wine Box</a>
-                  <a class="dropdown-item" href="shop.html">Gift Box</a>
-                </div>
-            </li>
-            <li class='nav-item'>
-                <a class='nav-link-active' href="bodegas.html">Bodegas</a>
-            </li>
-            <li class='nav-item'>
-                <a class='nav-link-active' href="artistas.html">Artistas</a>
-            </li>
-            <li class='nav-item'>
-                <a class='nav-link-active' href="contacto.html">Contacto</a>
-            </li>
-            <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn btn-light my-2 my-sm-0" type="submit">Search</button>
-              </form>
-        </ul>
-    </div>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="#">
+            <img src="./IMAGENES/LOGO 2.png" width="70" height="70" alt="Logo comercial">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-center align-item-center menu" id="navbarNav">
+            <ul class='navbar-nav'>
+                <li class='nav-item active mr-5 mt-2'>
+                    <a class='nav-link-active' href="index.html">Inicio<span class="sr-only">(current)</span></a>
+                </li>
+                <li class='nav-item mr-5 mt-2'>
+                    <a class='nav-link-active' href="nosotros.html">Nosotros</a>
+                </li>
+                <li class="nav-item dropdown mr-5">
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Shop</a>
+                    <div class="dropdown-menu">
+                    <a class="dropdown-item" href="shop.html">Vinos</a>
+                    <a class="dropdown-item" href="shop.html">Wine Box</a>
+                    <a class="dropdown-item" href="shop.html">Gift Box</a>
+                    </div>
+                </li>
+                <li class='nav-item mr-5 mt-2'>
+                    <a class='nav-link-active' href="bodegas.html">Bodegas</a>
+                </li>
+                <li class='nav-item mr-5 mt-2'>
+                    <a class='nav-link-active' href="artistas.html">Artistas</a>
+                </li>
+                <li class='nav-item mr-5 mt-2'>
+                    <a class='nav-link-active' href="contacto.html">Contacto</a>
+                </li>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn btn-light my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            </ul>
+        </div>
+    </nav>
 
     <!--INICIO FORM-->
     <div class='container-fluid'>
@@ -95,7 +102,7 @@
                 <br>
                 <button type="submit" class="btn btn-primary">Enviar</button>
             </form>
-            <img class='col-sm-5' src="./IMAGENES/ROSE_CONTACTO.jpg" width="25%" height="900px" alt="Vino Rosado Padrillos">
+            <img class='img-fluid col-lg-6 col-md-8 col-sm' src="./IMAGENES/ROSE_CONTACTO-min.jpg" alt="Vino Rosado Padrillos">
         </div> 
     </div>
 
