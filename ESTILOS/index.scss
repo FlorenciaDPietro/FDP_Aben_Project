@@ -1,0 +1,66 @@
+$textcolor: whitesmoke;
+$textsize: 10px;
+$textfont: 'Montserrat', sans-serif;
+
+
+p {
+    font-family: $textfont;
+}
+
+/*MINI BANNER*/
+.banner {
+    display: flex;
+    font-family:  $textfont;
+    font-weight: bold;
+    background-color: black;
+    color: $textcolor;
+    padding-top: 10px;
+    justify-content: center;
+    letter-spacing: 1px; 
+}
+
+/*NAV*/
+.menu {
+    font-family:  $textfont;
+    font-size: $textsize+8px;
+    font-weight: bold;
+    a{
+        color: rgb(32, 32, 32);
+        text-decoration: none;
+    }
+}
+
+/*CAROUSEL*/
+.carousel-item {
+    p {
+        font-size: $textsize*2.5;
+    }
+    p, h2 {
+        font-family:  $textfont;
+        background-color: rgba(5, 5, 5, 0.719);
+    }
+    a {
+        color: $textcolor;
+    }
+}
+
+/*JUMBOTRON*/
+.jumbotron {
+    background-color: rgba(51, 88, 75, 0.281);
+    font-family:  $textfont;
+}
+
+/*FOOTER*/
+.footer {
+    background-color: black;
+    font-family:  $textfont;
+    font-size: $textsize+8px;
+    line-height: 2rem;
+    padding: 10px;
+    color: $textcolor;
+    a {
+        color: $textcolor;
+        text-decoration: none;
+    }
+}
+

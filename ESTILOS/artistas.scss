@@ -1,0 +1,47 @@
+$textcolor: whitesmoke;
+$textsize: 10px;
+$textfont: 'Montserrat', sans-serif;
+
+p {
+    font-family: $textfont;
+}
+
+/*NAV*/
+.menu {
+    font-family: $textfont; 
+    font-size: $textsize+8px;
+    font-weight: bold;
+    a{
+        color: rgb(32, 32, 32);
+        text-decoration: none;
+    }
+}
+
+p {
+    width: 600px;
+    height: 45vh;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 200px;
+    margin-right: 25px;
+    position: relative;
+    text-align: left;
+    font-family: $textfont;
+    font-weight: lighter;
+    color: rgb(51, 88, 75);
+    font-size: $textsize*2;
+    overflow: auto;
+}
+
+/*FOOTER*/
+.footer {
+    background-color: black;
+    font-family: $textfont;
+    font-size: $textsize+8px;
+    line-height: 2rem;
+    padding: 10px;
+    color: $textcolor;
+    a {
+        color: $textcolor;
+    }
+}

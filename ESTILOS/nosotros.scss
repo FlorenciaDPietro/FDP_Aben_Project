@@ -1,0 +1,71 @@
+$textcolor: whitesmoke;
+$textsize: 10px;
+$textfont: 'Montserrat', sans-serif;
+
+p {
+    font-family: $textfont;
+}
+
+/*NAV*/
+.menu {
+    font-family: $textfont; 
+    font-size: $textsize+8px;
+    font-weight: bold;
+    a{
+        color: rgb(32, 32, 32);
+        text-decoration: none;
+    }
+}
+
+
+
+/*FOOTER*/
+.footer {
+    background-color: black;
+    font-family: $textfont;
+    font-size: $textsize+8px;
+    line-height: 2rem;
+    padding: 10px;
+    color: $textcolor;
+    a {
+        color: $textcolor;
+    }
+}
+
+/*PRESENTATION*/
+.presentation__ser {
+    background-color: rgb(223, 140, 109);
+    padding: 50px;
+    margin-top: 100px;
+    margin-bottom: 15px;
+}
+
+.presentation__facu {
+    background-color: rgb(223, 140, 109);
+    padding: 50px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.presentation__flor {
+    background-color: rgb(223, 140, 109);
+    padding: 50px;
+    margin-top: 15px;
+    margin-bottom: 100px;
+}
+
+h2 {
+    font-family: $textfont; 
+    font-weight: darker;
+    color: $textcolor;
+    background-color: rgb(223, 140, 109);
+}
+
+p {
+    font-family: $textfont; 
+    font-weight: darker;
+    font-size: ($textsize+8px)-1px;
+    color: $textcolor;
+    line-height: 1.6; 
+}
+
