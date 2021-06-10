@@ -26,12 +26,14 @@ p {
     margin-right: 25px;
     position: relative;
     text-align: left;
-    font-family: 'Montserrat', sans-serif;
+    font-family: $textfont;
     font-weight: lighter;
     color: rgb(51, 88, 75);
     font-size: $textsize*2;
     overflow: auto;
 }
+
+
 
 /*FOOTER*/
 .footer {
