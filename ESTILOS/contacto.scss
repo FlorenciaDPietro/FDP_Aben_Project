@@ -17,7 +17,12 @@ p {
     }
 }
 
-
+/*FORM*/
+@media screen and (max-width:900px) {
+    .form__image {
+        display: none;
+    }
+}
 
 /*FOOTER*/
 .footer {

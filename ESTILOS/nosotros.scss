@@ -38,13 +38,15 @@ p {
     padding: 50px;
     margin-top: 100px;
     margin-bottom: 15px;
+    margin-left: 1.5rem;
 }
 
-.presentation__facu {
+.presentation__facu--content {
     background-color: rgb(223, 140, 109);
     padding: 50px;
     margin-top: 15px;
     margin-bottom: 15px;
+    margin-right: 1.5rem;
 }
 
 .presentation__flor {
@@ -52,6 +54,8 @@ p {
     padding: 50px;
     margin-top: 15px;
     margin-bottom: 100px;
+    margin-left: 1.5rem;
+    
 }
 
 h2 {
@@ -69,3 +73,24 @@ p {
     line-height: 1.6; 
 }
 
+@media screen and (max-width: 990px) {
+    .presentation__facu {
+        margin-top: 1.5rem;
+        margin-left: 1.5rem;
+        margin-right: 0px;
+        margin-bottom: 1.6rem;
+    }
+
+    .presentation__ser {
+        margin-top: 1.5rem;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-bottom: 1.6rem;
+    }
+    .presentation__flor {
+        margin-top: 1.5rem;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-bottom: 1.6rem;
+    }
+}
