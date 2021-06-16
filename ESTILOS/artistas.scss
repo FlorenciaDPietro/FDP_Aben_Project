@@ -17,7 +17,17 @@ p {
     }
 }
 
-p {
+/*CONTENIDO*/
+
+h1 {
+    font-family: $textfont;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+p .artist {
     width: 600px;
     height: 45vh;
     margin-top: 100px;
@@ -31,6 +41,15 @@ p {
     color: rgb(51, 88, 75);
     font-size: $textsize*2;
     overflow: auto;
+}
+
+.card {
+    border: none;
+}
+
+.card-text {
+    margin-top: 15px;
+    font-family: $textfont
 }
 
 /*FOOTER*/
