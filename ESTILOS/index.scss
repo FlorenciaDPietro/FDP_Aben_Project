@@ -20,12 +20,22 @@ p {
 
 /*NAV*/
 .menu {
-    font-family:  $textfont;
+    font-family: $textfont; 
     font-size: $textsize+8px;
     font-weight: bold;
-    a{
+    a {
         color: rgb(32, 32, 32);
         text-decoration: none;
+    }
+    @media screen and (max-width: 1000px) {
+        .search {
+            display: none;
+        }
+    }
+    @media screen and (max-width: 650px) {
+        .navbar-nav .nav-item {
+            background-color: rgba(216, 216, 216, 0.219);
+        } 
     }
 }
 

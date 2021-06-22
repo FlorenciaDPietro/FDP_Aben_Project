@@ -11,13 +11,21 @@ p {
     font-family: $textfont; 
     font-size: $textsize+8px;
     font-weight: bold;
-    a{
+    a {
         color: rgb(32, 32, 32);
         text-decoration: none;
     }
+    @media screen and (max-width: 1000px) {
+        .search {
+            display: none;
+        }
+    }
+    @media screen and (max-width: 650px) {
+        .navbar-nav .nav-item {
+            background-color: rgba(216, 216, 216, 0.219);
+        } 
+    }
 }
-
-
 
 /*FOOTER*/
 .footer {
@@ -54,8 +62,7 @@ p {
     padding: 50px;
     margin-top: 15px;
     margin-bottom: 100px;
-    margin-left: 1.5rem;
-    
+    margin-left: 1.5rem;  
 }
 
 h2 {
@@ -80,7 +87,6 @@ p {
         margin-right: 0px;
         margin-bottom: 1.6rem;
     }
-
     .presentation__ser {
         margin-top: 1.5rem;
         margin-left: 0px;
